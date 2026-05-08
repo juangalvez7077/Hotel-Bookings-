@@ -1,10 +1,10 @@
-# 🏨 Hotel Booking Cancellation Analysis — ETL Pipeline
+#  Hotel Booking Cancellation Analysis — ETL Pipeline
 
 **Corporate Intelligence Project | UFV Madrid | Master in Corporate Intelligence | 2025–2026**
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 Este repositorio contiene el pipeline ETL completo para el análisis de cancelaciones hoteleras desarrollado como parte del proyecto de Business Intelligence.
 
@@ -12,7 +12,7 @@ El pipeline transforma el dataset raw *Hotel Booking Demand* en un dataset limpi
 
 ---
 
-## 🚀 Ejecutar en Google Colab
+##  Ejecutar en Google Colab
 
 Haz clic en el botón para abrir y ejecutar el notebook directamente en tu navegador, sin instalar nada:
 
@@ -22,7 +22,7 @@ Haz clic en el botón para abrir y ejecutar el notebook directamente en tu naveg
 
 ---
 
-## 🔄 Estructura del Pipeline
+##  Estructura del Pipeline
 
 | Step | Descripción |
 |------|-------------|
@@ -35,7 +35,7 @@ Haz clic en el botón para abrir y ejecutar el notebook directamente en tu naveg
 
 ---
 
-## 📊 Resultados del Pipeline
+##  Resultados del Pipeline
 
 | Métrica | Valor |
 |---------|-------|
@@ -48,7 +48,7 @@ Haz clic en el botón para abrir y ejecutar el notebook directamente en tu naveg
 
 ---
 
-## 📁 Archivos del repositorio
+##  Archivos del repositorio
 
 ```
 Hotel-Bookings/
@@ -59,6 +59,6 @@ Hotel-Bookings/
 
 ---
 
-## 👥 Autores
+##  Autores
 
 Proyecto desarrollado para la asignatura de Corporate Intelligence — Universidad Francisco de Vitoria (UFV Madrid).
