@@ -4,61 +4,61 @@
 
 ---
 
-##  Descripción
+##  Overview
 
-Este repositorio contiene el pipeline ETL completo para el análisis de cancelaciones hoteleras desarrollado como parte del proyecto de Business Intelligence.
+This repository contains the full ETL pipeline for the hotel booking cancellation analysis, developed as part of the Business Intelligence project.
 
-El pipeline transforma el dataset raw *Hotel Booking Demand* en un dataset limpio y enriquecido de **87.144 registros y 44 variables**, listo para su uso en Power BI.
+The pipeline transforms the raw *Hotel Booking Demand* dataset into a clean, analytically enriched dataset of **87,144 records and 44 variables**, ready for direct ingestion into Power BI.
 
 ---
 
-##  Ejecutar en Google Colab
+##  Run in Google Colab
 
-Haz clic en el botón para abrir y ejecutar el notebook directamente en tu navegador, sin instalar nada:
+Click the button below to open and run the notebook directly in your browser:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/juangalvez7077/Hotel-Bookings-/blob/main/Hotel_Bookings_ETL_code.ipynb)
 
-> **Requisito:** Necesitarás subir el archivo `hotel_bookings.csv` cuando el notebook te lo pida.
+> **Requirement:** You will need to upload the `hotel_bookings.csv` file when prompted by the notebook.
 
 ---
 
-##  Estructura del Pipeline
+##  Pipeline Structure
 
-| Step | Descripción |
+| Step | Description |
 |------|-------------|
-| **Step 1 – Extract** | Carga del dataset original (119.390 registros, 32 columnas) |
-| **Step 2 – Quality Analysis** | Detección de nulos, duplicados, outliers y registros inválidos |
-| **Step 3 – Data Cleaning** | Eliminación de duplicados, imputación de nulos, corrección de tipos |
-| **Step 4 – Feature Engineering** | Creación de 11 nuevas variables: `total_nights`, `estimated_revenue`, `risk_score`, etc. |
-| **Step 5 – Validation** | Verificación del dataset final antes de la carga |
-| **Step 6 – Load** | Exportación a Excel (`.xlsx`) listo para Power BI |
+| **Step 1 – Extract** | Load the original dataset (119,390 records, 32 columns) |
+| **Step 2 – Quality Analysis** | Detection of nulls, duplicates, outliers and invalid records |
+| **Step 3 – Data Cleaning** | Drop duplicates, impute missing values, fix data types |
+| **Step 4 – Feature Engineering** | Creation of 11 new variables: `total_nights`, `estimated_revenue`, `risk_score`, etc. |
+| **Step 5 – Validation** | Final dataset verification before loading |
+| **Step 6 – Load** | Export to Excel (`.xlsx`) ready for Power BI |
 
 ---
 
-##  Resultados del Pipeline
+##  Pipeline Results
 
-| Métrica | Valor |
-|---------|-------|
-| Registros originales | 119.390 |
-| Registros tras limpieza | 87.144 |
-| Columnas finales | 44 |
-| Tasa de cancelación | 27,52% |
-| Revenue estimado total | EUR 34.312.805 |
-| Revenue perdido (cancelaciones) | EUR 11.427.753 |
+| Metric | Value |
+|--------|-------|
+| Original records | 119,390 |
+| Records after cleaning | 87,144 |
+| Final columns | 44 |
+| Cancellation rate | 27.52% |
+| Total estimated revenue | EUR 34,312,805 |
+| Revenue lost (cancellations) | EUR 11,427,753 |
 
----
 
-##  Archivos del repositorio
 
-```
+##  Repository Structure
+
+
 Hotel-Bookings/
-│
-├── Hotel_Bookings_ETL_code.ipynb   # Notebook ETL completo
-└── README.md                        # Este archivo
-```
+│── Hotel_Bookings.csv              
+├── Hotel_Bookings_ETL_code.ipynb   
+└── README.md                        
 
----
 
-##  Autores
 
-Proyecto desarrollado para la asignatura de Corporate Intelligence — Universidad Francisco de Vitoria (UFV Madrid).
+
+##  Authors
+
+Project developed for the Corporate Intelligence course — Universidad Francisco de Vitoria (UFV Madrid) by Juan Lantero, Juan Gálvez, Galo Prensa and Ignacio Evangelista.
