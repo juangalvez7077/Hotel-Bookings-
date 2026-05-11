@@ -2,7 +2,7 @@
 
 **Corporate Intelligence Project | UFV Madrid | 2025–2026**
 
----
+
 
 ##  Overview
 
@@ -10,7 +10,7 @@ This repository contains the full ETL pipeline for the hotel booking cancellatio
 
 The pipeline transforms the raw *Hotel Booking Demand* dataset into a clean, analytically enriched dataset of **87,144 records and 44 variables**, ready for direct ingestion into Power BI.
 
----
+
 
 ##  Run in Google Colab
 
@@ -20,7 +20,7 @@ Click the button below to open and run the notebook directly in your browser:
 
 > **Requirement:** You will need to upload the `hotel_bookings.csv` file when prompted by the notebook.
 
----
+
 
 ##  Pipeline Structure
 
@@ -33,7 +33,7 @@ Click the button below to open and run the notebook directly in your browser:
 | **Step 5 – Validation** | Final dataset verification before loading |
 | **Step 6 – Load** | Export to Excel (`.xlsx`) ready for Power BI |
 
----
+
 
 ##  Pipeline Results
 
@@ -45,17 +45,6 @@ Click the button below to open and run the notebook directly in your browser:
 | Cancellation rate | 27.52% |
 | Total estimated revenue | EUR 34,312,805 |
 | Revenue lost (cancellations) | EUR 11,427,753 |
-
-
-
-##  Repository Structure
-
-
-Hotel-Bookings/
-│── Hotel_Bookings.csv              
-├── Hotel_Bookings_ETL_code.ipynb   
-└── README.md                        
-
 
 
 
