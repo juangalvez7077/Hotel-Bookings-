@@ -1,6 +1,6 @@
 #  Hotel Booking Cancellation Analysis — ETL Pipeline
 
-**Corporate Intelligence Project | UFV Madrid | Master in Corporate Intelligence | 2025–2026**
+**Corporate Intelligence Project | UFV Madrid | 2025–2026**
 
 ---
 
